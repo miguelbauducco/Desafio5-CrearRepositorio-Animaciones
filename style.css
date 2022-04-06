@@ -1,0 +1,253 @@
+
+body{
+    background-color: rgba(187, 228, 228, 0.87);
+    padding: 100px;
+    background-image: url(multimedia.mp4/image/fondo_total.jpg);
+    border: 6px solid beige;
+}
+
+header{
+    background-color:rgba(187, 228, 228, 0.87);
+    grid-area: header;
+    margin: 5px;
+    text-align: center;
+    border: 6px solid beige;
+}
+footer{
+    grid-area: footer;
+    margin: 5px;
+    background-color:rgba(187, 228, 228, 0.87);
+    text-align: center;
+    border: 6px solid beige;
+    font-family: "font3";
+    font-size: 12px;
+    list-style-type: none;
+    align-items: center;
+}
+
+@font-face {
+    font-family: "font1";
+    src: url(fonts/Soulgood.otf);
+}
+@font-face {
+    font-family: "font2";
+    src: url(fonts/kafeine.ttf);
+}
+@font-face {
+    font-family: "font3";
+    src: url(fonts/exmechanica.otf);
+}
+
+.contenedorpadreh{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 500px 1px 1369px 200px;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "sectionA"
+    "footer";
+}
+
+.contenedorpadrec{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 500px 1px 1369px 200px;
+    grid-template-areas:
+    "header"
+    "nav"
+    "sectionA"
+    "footer";
+}
+
+
+.catalogotitulo{
+    font-family: "font3";
+    }
+    
+.encabezado{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    background-color:rgba(187, 228, 228, 0.87);
+}
+
+h1{
+    font-weight: bold;
+    font-size: 350%;
+    font-family: "font1";
+    font-style: italic;
+    text-align: center;
+    background-color: none;
+}
+
+h2{
+    font-size:25px ;
+    font-family:"font2";
+    background-color: none;
+}
+.subtitulo{
+background-color: none;
+}
+
+.menu{
+    grid-area: nav;
+    padding: 5px;
+    margin:5px;
+    list-style-type:none;
+    text-align: center;
+    font-family: "font3";
+    list-style-type: none;
+    background-color: beige;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+.hyp{
+    text-decoration:none;
+    color: black;
+    background-color: beige;
+    list-style-type: none;
+}
+
+
+
+.h1cat{
+text-align: center;
+margin: 30px;
+padding: 30px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.divcat{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+.catalogo{
+    grid-area: sectionA;
+    background-color: rgba(187, 228, 228, 0.87);
+    text-decoration: none;
+    margin: 5px;
+    border: 6px solid beige;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+
+}
+.catalogoindex{
+    grid-area: sectionA;
+    margin: 5px;
+    background-color: rgba(187, 228, 228, 0.87);
+    text-decoration: none;
+    font-size:x-large;
+    border: 6px solid beige;
+    text-align: center;
+}
+
+.cat-items{
+    padding: 10px;
+    margin:10px;
+}
+.cat-p{
+    padding:10px;
+    margin:10px;
+    font-size: 18px;
+    
+    }
+
+.menuf{
+    padding: 5px;
+    margin:5px;
+    font-family: "font3";
+    list-style-type:none;
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    font-family: "font1";
+    text-decoration: none;
+    color: black;
+}
+.text-cat-index{
+text-decoration: none;
+}
+
+.img-cat-index{
+border: 6px solid beige;
+}
+
+.item{
+    list-style-type: none;
+}
+.contacto{
+    background-color: rgba(187, 228, 228, 0.87);
+    border: 6px solid beige;
+    margin: 5px;
+}
+.pcontacto{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    background-color: none;
+}
+
+.listcont{
+    font-family: "font1";
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 40px;
+}
+
+.form{
+    margin: 15px;
+    font-family: "font1";
+    text-align: center;
+    font-size: 30px;
+}
+
+.letrasf{
+background-color: beige;
+padding: 5px;
+}
+
+
+
+.nos{
+    text-align: center;
+    background-color: rgba(187, 228, 228, 0.87);
+    border: 6px solid beige;
+    margin: 5px;
+}
+
+.imgnos{
+    border: 6px solid beige;
+}
+
+.textnos{
+    font-size: 40px;
+}
+
+
+.tucson{
+    background-color: rgba(187, 228, 228, 0.87);
+    text-align: center;
+    border: 6px solid beige;
+    margin: 5px;
+}
+
+.psorteo{
+    
+    font-size: 30px;
+    text-align: center;
+}
+
