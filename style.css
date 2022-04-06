@@ -150,6 +150,10 @@ justify-content: center;
     text-align: center;
 }
 
+.iframe{
+    text-align: center;
+}
+
 .cat-items{
     padding: 10px;
     margin:10px;
